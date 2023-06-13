@@ -1,0 +1,197 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn-custom {
+    background-color: #05394D;
+    color: #fff;
+}
+
+/*sessão home*/
+#home {
+    background-color: #05394D !important;
+    border-bottom: 1px solid #7c8080;
+}
+
+#home a {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #05394D !important;
+}
+
+/*sessão apresentação*/
+#apresentacao{
+    background-color: #05394D;
+    margin-top: 70px;
+    scroll-margin-top: .8em;
+}
+
+#apresentacao h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 80px;
+}
+
+#apresentacao h2{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 765px){
+    #apresentacao{
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    #apresentacao img{
+        margin-top: 30px !important;
+    }
+}
+
+/*sessão sobrenos*/
+#sobrenos {
+    padding: 150px 0px;
+}
+
+#sobrenos p {
+    color: #05394D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#sobrenos h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #05394D;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sobrenos .box {
+    color: #05394D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 50px 30px;
+    border: 1px solid #05394D;
+    border-radius: 15px;
+}
+
+/*sessão serviços*/
+#servicos {
+    background-color: #05394D;
+    padding: 150px 0px;
+}
+
+#servicos h2 {
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#servicos .box {
+    background-color: white;
+    text-align: center;
+    padding: 20px 30px;
+    border: 3px solid #05394D;
+}
+
+#servicos .box p {
+    margin-top: 10px;
+}
+
+
+/*sessão portfolio*/
+#portfolio {
+    padding: 150px 0px;
+}
+
+#portfolio h2 {
+    color: #05394D;
+    margin-bottom: 60px;
+}
+
+
+/*sessão cloud*/
+#cloud {
+    background-color: #05394D;
+    padding: 150px 0px;
+}
+
+#cloud h2 {
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#cloud p {
+    color: #fff;
+}
+
+#cloud button {
+    margin-top: 50px
+}
+
+@media (max-width: 765px){
+    #cloud{
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    #cloud img{
+        margin-top: 30px !important;
+    }
+}
+
+
+/*sessão contato*/
+#contato {
+    padding: 150px 0px;
+    text-align: center;
+}
+
+#contato h2 {
+    color: #05394D;
+    margin-bottom: 60px;
+}
+
+#contato p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #05394D;
+}
+
+#contato i {
+    margin-right: 5px;
+}
+
+#contato .espaco {
+    margin-left: 20px;
+}
+
+/*footer*/
+footer {
+    background-color: #05394d;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 10px;
+}
